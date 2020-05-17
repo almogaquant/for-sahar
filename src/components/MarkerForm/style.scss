@@ -1,0 +1,44 @@
+.marker-form {
+    .type-selection {
+        display: flex;
+        margin-bottom: 12px;
+
+        div {
+            margin-right: 12px;
+        }
+    }
+
+    .cords {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        height: 120px;
+        
+        .input {
+            margin-top: 4px;
+            display: flex;
+
+            input {
+                flex: 1;
+            }
+        
+            label{
+                margin-right: 3px;
+            }
+        
+            .lat {
+                margin-left: 5px;
+            }
+        }
+
+        .cords-button {
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 0;
+            background-color: navy;
+            color: white;
+            font-size: 14px;
+        }
+    }
+
+}

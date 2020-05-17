@@ -1,0 +1,29 @@
+.markers-header {
+    display: flex;
+    flex-flow: column;
+
+    p {
+        display: inline-block;
+        margin: 0;
+        width: 220px;
+    }
+
+    input {
+        height: 18px;
+        width: 100%;
+    }
+
+    button {
+        border-radius: 4px;
+        border: 0;
+        background-color: navy;
+        color: white;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .map-name {
+        display: flex;
+        align-items: center;
+    }
+}
